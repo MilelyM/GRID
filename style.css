@@ -1,0 +1,51 @@
+
+@media (min-width: 1px)
+{
+/* anular los margenes por defecto interno y ext , estilo de lista, decoracion de txto, fuente global, */
+/* propiedad css tamaño de caja q no tenga el cuenta el borde que apliq, relleno y borde esta incluido en ancho y altura*/
+.container{
+    margin: 0 auto;/* vaciar el margen determinado*/
+    width: 50%;
+    height: auto;
+}
+.row1{
+    vertical-align: inherit; 
+    width: 100%;
+    height: 40px;
+    clear: both;
+    display: table;
+    margin-bottom: 7px; /* margen hacia abajo*/
+}
+[class*="col-"]{
+    margin-right: 1.3%;
+    display: inline-block;
+    height: 100%;
+}
+.col-1{
+    width: 7.033333333%; /* 100/12 =8.33 el separador es 1.1 y los bordes tomaron el restante  menos 1.3*/
+    background-color: yellow;
+}
+.col-2{
+    width: 15.36666667%;
+    background: green;
+}
+.col-3{
+    width: 23.7%;
+    background: rgb(0, 247, 255)
+}
+.col-4{
+    width: 32.03333333%;
+    background: rgb(30, 97, 71)
+}
+.col-5{
+    width: 48.7%;
+    background: rgb(90, 9, 83)
+}
+.col-6{
+    width: 98.7%;
+    background: rgb(192, 12, 123)
+}
+
+}
+
+
